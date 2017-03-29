@@ -1,6 +1,7 @@
-var ocr = require('./ocr-numbers');
+var Ocr = require('./ocr-numbers');
 
 describe('ocr', function () {
+  var ocr = new Ocr();
 
   it('recognizes zero', function () {
     expect(ocr.convert(
@@ -11,7 +12,7 @@ describe('ocr', function () {
     )).toBe('0');
   });
 
-  xit('recognizes one', function () {
+  it('recognizes one', function () {
     expect(ocr.convert(
       '   \n' +
       '  |\n' +
@@ -20,7 +21,7 @@ describe('ocr', function () {
     )).toBe('1');
   });
 
-  xit('recognizes two', function () {
+  it('recognizes two', function () {
     expect(ocr.convert(
       ' _ \n' +
       ' _|\n' +
@@ -29,7 +30,7 @@ describe('ocr', function () {
     )).toBe('2');
   });
 
-  xit('recognizes three', function () {
+  it('recognizes three', function () {
     expect(ocr.convert(
       ' _ \n' +
       ' _|\n' +
@@ -38,7 +39,7 @@ describe('ocr', function () {
     )).toBe('3');
   });
 
-  xit('recognizes four', function () {
+  it('recognizes four', function () {
     expect(ocr.convert(
       '   \n' +
       '|_|\n' +
@@ -47,7 +48,7 @@ describe('ocr', function () {
     )).toBe('4');
   });
 
-  xit('recognizes five', function () {
+  it('recognizes five', function () {
     expect(ocr.convert(
       ' _ \n' +
       '|_ \n' +
@@ -56,7 +57,7 @@ describe('ocr', function () {
     )).toBe('5');
   });
 
-  xit('recognizes six', function () {
+  it('recognizes six', function () {
     expect(ocr.convert(
       ' _ \n' +
       '|_ \n' +
@@ -65,7 +66,7 @@ describe('ocr', function () {
     )).toBe('6');
   });
 
-  xit('recognizes seven', function () {
+  it('recognizes seven', function () {
     expect(ocr.convert(
       ' _ \n' +
       '  |\n' +
@@ -74,7 +75,7 @@ describe('ocr', function () {
     )).toBe('7');
   });
 
-  xit('recognizes eight', function () {
+  it('recognizes eight', function () {
     expect(ocr.convert(
       ' _ \n' +
       '|_|\n' +
@@ -83,7 +84,7 @@ describe('ocr', function () {
     )).toBe('8');
   });
 
-  xit('recognizes nine', function () {
+  it('recognizes nine', function () {
     expect(ocr.convert(
       ' _ \n' +
       '|_|\n' +
@@ -92,7 +93,7 @@ describe('ocr', function () {
     )).toBe('9');
   });
 
-  xit('recognizes ten', function () {
+  it('recognizes ten', function () {
     expect(ocr.convert(
       '    _ \n' +
       '  || |\n' +
