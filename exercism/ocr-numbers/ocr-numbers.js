@@ -73,6 +73,8 @@ Ocr.prototype.convert = function(weirdNumber) {
       '   ':
         return '9'
         break;
+    default:
+        return '?'
   }
 
 

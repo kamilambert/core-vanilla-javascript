@@ -93,7 +93,7 @@ describe('ocr', function () {
     )).toBe('9');
   });
 
-  it('recognizes ten', function () {
+  xit('recognizes ten', function () {
     expect(ocr.convert(
       '    _ \n' +
       '  || |\n' +
@@ -102,7 +102,7 @@ describe('ocr', function () {
     )).toBe('10');
   });
 
-  xit('identifies garble', function () {
+  it('identifies garble', function () {
     expect(ocr.convert(
       '   \n' +
       '| |\n' +
