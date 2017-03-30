@@ -27,13 +27,8 @@ PhoneNumber.prototype.areaCode = function() {
 
 PhoneNumber.prototype.toString = function() {
 
-  var firstThree = this.digits.slice(0,3)
-  var secondThree = this.digits.slice(3,6)
-  var thirdThree = this.digits.slice(6,10)
-
-  return '(' + firstThree + ') ' + secondThree + '-' + thirdThree
+  return '(' + this.digits.slice(0,3) + ') ' + this.digits.slice(3,6) + '-' + this.digits.slice(6,10)
 
 }
-
 
 module.exports = PhoneNumber;
