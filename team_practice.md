@@ -1,3 +1,5 @@
+# Run tests by going into exercism folder then running "jasmine-node ."
+
 # Core Vanilla JavaScript - Team Practice - 1
 
 A marathon of pair exercises in pure javascript. Capped with a final project.
@@ -11,10 +13,10 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 ### Day 1 - Exercism
 
-- [ ] Solve `/exercism/hamming`
+- [x] Solve `/exercism/hamming` Michael
 - [ ] Solve `/exercism/diamond`
 - [ ] Solve `/exercism/bracket-push`
-- [ ] Solve `/exercism/ocr-numbers`
+- [x] Solve `/exercism/ocr-numbers`
 - [ ] Solve `/exercism/bowling`
 
 #### Stretch
@@ -27,7 +29,7 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 - [ ] Solve `/exercism/`
 - [ ] Solve `/exercism/`
 
-- [ ] Solve `/exercism/phone-number`
+- [x] Solve `/exercism/phone-number`
 - [ ] Solve `/exercism/word-count`
 - [ ] Solve `/exercism/gigasecond`
 - [ ] Solve `/exercism/leap`
@@ -38,7 +40,7 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 - [ ] Solve `/exercism/wordy`
 - [ ] Solve `/exercism/largest-series-product`
 - [ ] Solve `/exercism/robot-simulator`
-- [ ] Solve `/exercism/rna-transcription`
+- [x] Solve `/exercism/rna-transcription`
 - [ ] Solve `/exercism/bob`
 
 
@@ -63,7 +65,7 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 - [ ] Solve `/exercism/luhn`
 - [ ] Solve `/exercism/pythagorean-triplet`
-- [ ] Solve `/exercism/beer-song`
+- [x] Solve `/exercism/beer-song` Michael
 - [ ] Solve `/exercism/grade-school`
 
 
