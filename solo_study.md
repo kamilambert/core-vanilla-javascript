@@ -16,11 +16,11 @@ Your objectives for the day are to achieve:
 
 - [x] Sign up for [Treehouse JavaScript Basics][treehouse-js-basics] course
 - [x] Complete "Introducing JavaScript"
-- [ ] Complete "Storing and Tracking Information with Variables"
-- [ ] Complete "Working With Numbers"
-- [ ] Complete "Making Decisions with Conditional Statements"
-- [ ] Complete "Creating Reusable Code with Functions"
-- [ ] Read about ["Truthy"](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) and ["Falsey"](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) values in this article: https://j11y.io/javascript/truthy-falsey/
+- [x] Complete "Storing and Tracking Information with Variables"
+- [x] Complete "Working With Numbers"
+- [x] Complete "Making Decisions with Conditional Statements"
+- [x] Complete "Creating Reusable Code with Functions"
+- [x] Read about ["Truthy"](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) and ["Falsey"](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) values in this article: https://j11y.io/javascript/truthy-falsey/
 
 ### Stretch
 
@@ -43,8 +43,8 @@ Today your objectives are to put in practice the concepts you learned yesterday.
 
 ### Plan
 
-- [ ] Complete the last 5 tasks of [Objects Basics Tutorial](https://learn.javascript.info/object)
-  - [ ] Link to your solution here (jsbin, gist, or a js file in this repo)
+- [x] Complete the last 5 tasks of [Objects Basics Tutorial](https://learn.javascript.info/object)
+  - [https://github.com/kamilambert/objectsbasics.git] Link to your solution here (jsbin, gist, or a js file in this repo)
 - [ ] Complete the last 5 tasks of [Arrays Tutorial](https://learn.javascript.info/array)
  - [ ] Link to your solution here
 - [ ] Complete the last 5 tasks of [Array Methods](https://learn.javascript.info/array-methods)
